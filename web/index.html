@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acessar conta</title>
+
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <script
+    src="https://kit.fontawesome.com/df4be66791.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="/js/index.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <h1 class="titulo">Acessar conta</h1>
+
+    <form id="login-form" novalidate>
+      <section class="inputs-container">
+        <input
+          type="email"
+          id="email"
+          placeholder="example@gmail.com"
+          autocomplete="email"
+          required
+        >
+
+        <div class="password-container">
+          <input
+            type="password"
+            id="senha"
+            class="field-password"
+            placeholder="********"
+            autocomplete="current-password"
+            required
+          >
+          <i class="fas fa-eye" id="eye" aria-hidden="true"></i>
+          <i class="fas fa-eye-slash" id="eye-slash" aria-hidden="true"></i>
+        </div>
+      </section>
+
+      <section class="password-infos">
+        <div>
+          <input type="checkbox" id="lembrar">
+          <label for="lembrar">Lembrar senha</label>
+        </div>
+
+        <a href="#">Esqueceu sua senha?</a>
+      </section>
+
+      <button type="submit" id="btn-login">Entrar</button>
+
+      <section class="links-container">
+        <span>Ou entre com:</span>
+        <aside>
+          <a href="#"><i class="fab fa-google-plus-square google"></i></a>
+          <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook-square facebook"></i></a>
+        </aside>
+      </section>
+
+      <footer>
+        <hr>
+        <span>Ainda não tem uma conta? <a href="#">Cadastre-se</a></span>
+      </footer>
+
+      <p id="mensagem" style="text-align:center;margin-top:10px;"></p>
+    </form>
+  </main>
+</body>
+</html>
