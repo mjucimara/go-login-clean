@@ -1,0 +1,13 @@
+# Binários gerados
+bin/
+
+# Cache Go
+*.test
+*.out
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
