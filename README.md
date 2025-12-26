@@ -186,18 +186,3 @@ Essas decisões são **intencionais**.
 * Projeto separado focado em API REST
 
 ---
-
-## 📄 Licença
-
-Este projeto é apenas demonstrativo e educacional.
-
----
-
-Se quiser, posso:
-
-* revisar o README como se fosse code review
-* encurtar para versão “portfólio”
-* adaptar para clientes ou recrutadores
-* encerrar oficialmente o projeto
-
-É só dizer.
